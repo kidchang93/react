@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import MyComponent from "./MyComponent";
 
 function App() {
   const name = "리액트";
@@ -22,6 +23,7 @@ function App() {
       {name}
       <div className="react">{name}</div>
       <input />
+      <MyComponent />
     </div>
   );
 }
