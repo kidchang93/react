@@ -21,6 +21,7 @@ function App() {
       {/* {name1 || "리액트"}; */}
       {name}
       <div className="react">{name}</div>
+      <input />
     </div>
   );
 }
